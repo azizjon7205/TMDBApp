@@ -1,0 +1,12 @@
+
+query PopularShow{
+    popularShows {
+        error
+        ok
+        shows {
+            id
+            name
+            poster_path
+        }
+    }
+}
