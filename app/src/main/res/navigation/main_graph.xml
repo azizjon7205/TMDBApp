@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph.xml"
+    app:startDestination="@id/tvShowsFragment">
+
+    <fragment
+        android:id="@+id/tvShowsFragment"
+        android:name="com.example.tmdbapp.ui.TvShowsFragment"
+        android:label="TvShows"
+        tools:layout="@layout/fragment_tv_shows" />
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.tmdbapp.ui.HistoryFragment"
+        android:label="History"
+        tools:layout="@layout/fragment_history" />
+</navigation>
